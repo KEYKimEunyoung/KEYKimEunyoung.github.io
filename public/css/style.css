@@ -70,13 +70,13 @@ pre {
 	margin-bottom: 15px;
 	padding-bottom: 10px;
 	padding: 5px;
-	background-color: #1c1c1c;
+	background-color: #fffadd;
 	line-height: 1.2;
 }
 
 code {
 	font-family: "Menlo", "Consolas", monospace;
-	background-color: #dcd3c0;
+	background-color: #fffadd;
 	font-size: 0.8em;
 	margin: 0px;
 }
