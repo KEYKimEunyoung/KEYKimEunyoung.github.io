@@ -8,6 +8,7 @@ category: sample
 > Hello!
 
 This is code
+`코드입니다.`
 ```ruby
 print 'hello world'
 ```
