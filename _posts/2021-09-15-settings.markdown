@@ -2,7 +2,7 @@
 layout: post
 title: 개발 환경 구성 (settings)
 date: 2021-09-15 01:02:00 +0900
-category: 환경설정
+category: settings
 ---
 ## 작업 환경 구성
 
@@ -15,8 +15,8 @@ MN) [코드를 포함하여 명령어 실행 결과 첨부된 노션으로 이�
     * 7.x 대 버전은 기존의 nara-serverice와 호환이 안되어 **6.9.1** 으로 downgrade 후 wrapper 생성 작업 진행
     * ``` brew install gradle@6 ```
     * ``` >> 프로젝트 루트 >> gradle wrapper --gradle-version=6.7     ```
-    
-    MN) gradle 설치 후 메세지 (아직 프로젝트가 없어서 `>> 프로젝트 루트 >> gradle wrapper --gradle-version=6.7` 명령어는 실행X)
+
+  MN) gradle 설치 후 메세지 (아직 프로젝트가 없어서 `>> 프로젝트 루트 >> gradle wrapper --gradle-version=6.7` 명령어는 실행X)
     ```shell
     negseuteuliui-MacBookPro:~ nextree$ brew install gradle@6
     Updating Homebrew...
@@ -64,7 +64,7 @@ MN) [코드를 포함하여 명령어 실행 결과 첨부된 노션으로 이�
   ```
 * ~~docker~~
     * docker-compose로 필요한 컨테이너 생성 및 볼륨 mount
-        > MN) docker-compose.yml이 있는 root 파일로 이동해서 `docker-compose up -d` 명령어를 실행한다.
+      > MN) docker-compose.yml이 있는 root 파일로 이동해서 `docker-compose up -d` 명령어를 실행한다.
         * ```>> cd [root dir with yml] ```
         * ```>> docker-compose up -d```
     * db
@@ -74,8 +74,8 @@ MN) [코드를 포함하여 명령어 실행 결과 첨부된 노션으로 이�
 * ~~gcp~~
     * nara-dev 클러스터 권한 확인
       > 파이썬은 이미 설치되어 있어서 따로 설치하지 않았음(python -V로 버전확인만 하였음) <br/>
-      https://cloud.google.com/sdk/docs/install 에서 첫번째 패키지(macOS 64비트) 
-      다운로드 받은 뒤, 압축파일을 풀고 풀어진 폴더의 상위 경로(루트)에서 
+      https://cloud.google.com/sdk/docs/install 에서 첫번째 패키지(macOS 64비트)
+      다운로드 받은 뒤, 압축파일을 풀고 풀어진 폴더의 상위 경로(루트)에서
       ./google-cloud-sdk/install.sh 명령어를 실행함으로써 google cloud를 설치하였음.
       아래는 해당 명령어 실행 결과.
       <br/>
@@ -168,7 +168,7 @@ MN) [코드를 포함하여 명령어 실행 결과 첨부된 노션으로 이�
         For more information on how to get started, please visit:
         https://cloud.google.com/sdk/docs/quickstarts
   ```
-  
+
     * ~~gcloud + kubectl~~
         * [sdk 설치](https://cloud.google.com/sdk/docs/install)
         * ``` gcloud init ```
@@ -181,3 +181,4 @@ MN) [코드를 포함하여 명령어 실행 결과 첨부된 노션으로 이�
           ![img_1.png](https://gitlab.com/naraplatform/nara-dev-log/-/raw/main/21-09-2주차/ref/210907/img_1.png)
         * 클러스터(GKE) 정보 확인   
           ![img_2.png](https://gitlab.com/naraplatform/nara-dev-log/-/raw/main/21-09-2주차/ref/210907/img_2.png)
+
