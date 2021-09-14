@@ -75,6 +75,7 @@ pre {
 
 code {
 	font-family: "Menlo", "Consolas", monospace;
+	background-color: #eaffff;
 	font-size: 0.8em;
 	margin: 0px;
 }
