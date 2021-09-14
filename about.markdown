@@ -1,18 +1,11 @@
 ---
 layout: page
-title: About
+title: 🐣 ABOUT
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
-
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+안녕하세요. 저는 개발자 김은영입니다. <br>
+개발을 하면서 필요한 사항들을 기록하고 관리하기 위한 용도로 생성한 블로그입니다. <br>
+`왼쪽의 목록`을 통해 작성된 글들을 확인 할 수 있습니다. <br>
+- github ➡ [https://github.com/KEYKimEunyoung](https://github.com/KEYKimEunyoung)
+- email ➡ <ey1234kim@gmail.com>
