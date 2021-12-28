@@ -1,28 +1,62 @@
-# CV jekyll theme
+# Ephesus
 
-Free theme for the creation of your CV. View demo [here](https://jekyll-cv.stavrospanakakis.com/).
+Ephesus Jekyll Theme - Simple and Minimal Jekyll Blog Theme
 
-## Features
-- Lightweight
-- Free & Open Source
-- Mobile Responsive
-- Dark Mode Support
+Author [Hakan Torun](https://hakan.io).
 
+- **Demo:** https://pardin.us/ephesus/
 
-## Preview
-![Preview](./preview.png)
+### Features
+
+- [x] Tiny CSS & No Dependency
+- [x] Responsive Design
+- [x] Dark/Light Theme
+- [x] Custom 404 Page
+- [x] About Page
+- [x] Tags Page
+- [x] Code Highlighter
+- [x] Social Share
+- [x] Atom & Json feeds
+- [x] Robots.txt
+- [x] Sitemap
+- [x] Next & Previous Post
+- [x] Pagination
+- [x] Disqus
+- [x] Mathjax Support
+- [x] Google Analytics
+
+## Screenshots
+
+#### Light
+![light-theme](https://github.com/onepase/Ephesus/blob/master/light.png)
+
+#### Dark
+![dark-theme](https://github.com/onepase/Ephesus/blob/master/dark.png)
 
 ## Installation
-- [Fork](https://github.com/stavrospanakakis/jekyll-cv/fork) the repository
-- Create a ```gh-pages``` branch
-- Go to Settings and select ```gh-pages``` as Github Pages source
-- Replace dummy data at ```_data/data.yml``` and ```_config.yml```
-- You're done!
 
-Go to https://username.github.io/jekyll-cv/
+Run local server:
 
-## Contributing 
-- Feel free to open issues and create pull requests for new features or skins
+```bash
+$ git clone https://github.com/onepase/Ephesus.git
+$ cd Ephesus
+$ bundle install
+$ bundle exec jekyll build
+$ bundle exec jekyll serve
+```
+
+Navigate to `127.0.0.1:4000`.
+
+Tags are created automatically under the /tags page.
+
+To use a math formula in a post, use the mathjax:true tag in the post.
+
+## Contributing
+
+Feel free to open a pull request for contributing.
+
+Please feel free to contribute. Do not hesitate to open a pull request and fix it, please read [contributing](./CONTRIBUTING.md) before PR.
 
 ## License
-- [MIT](./LICENSE)
+
+This project is open source and available under the [MIT License](LICENSE.md).
